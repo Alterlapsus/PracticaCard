@@ -9,6 +9,38 @@
 
 body{
     font-family: 'Inter', sans-serif;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px 0;
 }
-
+.card{
+    max-width: 1000px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: var(--columns-card);
+    grid-template-rows: var(--columns-rows);
+}
+.card__content{
+    grid-column: 3/-1;
+    grid-row: 2/-2;
+    padding: 30px;
+    color: #fff;
+    background-color: var(--color-primary);
+}
+.card__title{
+   font-size: 2rem;
+   margin-bottom: 20px; 
+}
+.card__description{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.card__cta{
+    display: inline-block;
+    background-color: #fff;
+    color: var(--color-primary);
+    text-decoration: none;
+    padding: 18px 45px;
+}
