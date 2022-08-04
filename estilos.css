@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+:root{
+    --color-primary: #2658e4;
+    --columns-card: repeat(5,1fr);
+    --columns-rows: repeat(8,1fr);
+
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+   
+}
+
