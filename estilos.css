@@ -22,12 +22,26 @@ body{
     grid-template-columns: var(--columns-card);
     grid-template-rows: var(--columns-rows);
 }
+
+.card::after{
+    content: "";
+    background-color: red;
+    grid-column: 1/4;
+    grid-row: 1 / -1;
+    background-image: url(/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+
 .card__content{
     grid-column: 3/-1;
     grid-row: 2/-2;
     padding: 30px;
     color: #fff;
     background-color: var(--color-primary);
+    z-index: 1;
 }
 .card__title{
    font-size: 2rem;
@@ -44,3 +58,5 @@ body{
     text-decoration: none;
     padding: 18px 45px;
 }
+
+/* responsive */
