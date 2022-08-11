@@ -1,5 +1,5 @@
 # PracticaCard
-Se realiza card para practicar los conocimientos adquiridos de CSSGRID
+Se realiza card para practicar los conocimientos adquiridos de CSS-GRID
 
 ---
 <a href="https://cardpractica.netlify.app/">Ver WebSite</a>
